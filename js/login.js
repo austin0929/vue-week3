@@ -17,7 +17,7 @@ createApp({
               document.cookie = `vuetoken=${token}; expires=${new Date(expired)};`;
           })
           setTimeout(() => {
-              window.location.href = 'http://127.0.0.1:5500/adminProduct.html';
+            window.location.href = 'https://austin0929.github.io/vue-week3/adminProduct.html';
           }, 2000);
       },
   }
